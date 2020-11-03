@@ -6,31 +6,31 @@ import webbrowser
 import time
 
 if day.strftime("%A") == "Sunday":
-    with open("data/days/day1.txt", "r") as day:
+    with open('data/days/day1.txt', 'r') as day:
         print("today is sunday")
         links = day.readlines()      
 elif day.strftime("%A") == "Monday":
-    with open("data/days/day2.txt", "r") as day:
+    with open('data/days/day2.txt', 'r') as day:
         print("today is Monday")            
         links = day.readlines()      
 elif day.strftime("%A") == "Tuesday":
-    with open("data/days/day3.txt", "r") as day:
+    with open('data/days/day3.txt', 'r') as day:
         print("today is Tuesday")            
         links = day.readlines()  
 elif day.strftime("%A") == "Wednesday":
-    with open("data/days/day4.txt", "r") as day:
+    with open('data/days/day4.txt', 'r') as day:
         print("today is Wednesday")            
         links = day.readlines()     
 elif day.strftime("%A") == "Thursday":
-    with open("data/days/day5.txt", "r") as day:
+    with open('data/days/day5.txt', 'r') as day:
         print("today is Thursday")           
         links = day.readlines()    
 elif day.strftime("%A") == "Friday": 
-    with open("data/days/day6.txt", "r") as day:
+    with open('data/days/day6.txt', 'r') as day:
         print("today is Friday") 
         links = day.readlines()      
 elif day.strftime("%A") == "Saturday":
-    with open("data/days/day7.txt", "r") as day:
+    with open('data/days/day7.txt', 'r') as day:
         print("today is Saturday")
         links = day.readlines()
 
